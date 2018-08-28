@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "玫瑰图",
+    "usingComponents": {
+      "ch-canvas": "../../ch-canvas/ch-canvas"
+    }
+}

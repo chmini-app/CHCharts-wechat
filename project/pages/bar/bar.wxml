@@ -1,0 +1,9 @@
+<!--pages/bar/bar.wxml-->
+<view class='container'>
+<text>奶茶销量柱状图</text>
+  <ch-canvas canvasId='bar' id='bar'></ch-canvas>
+  <view class='bnt'>
+  <button data-type='0' catchtap='onTypetap'>堆叠图</button>
+  <button data-type='1' catchtap='onTypetap'>平铺图</button>
+  </view>
+</view>

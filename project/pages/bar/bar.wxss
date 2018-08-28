@@ -1,0 +1,9 @@
+/* pages/bar/bar.wxss */
+.bnt{
+  display: flex
+}
+.bnt button{
+  height: 30px;
+  width: 70px;
+  font-size: 13px
+}

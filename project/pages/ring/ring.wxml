@@ -1,0 +1,4 @@
+<!--ring.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='ring' id='ring'></ch-canvas>
+</view>

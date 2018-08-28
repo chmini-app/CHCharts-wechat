@@ -1,0 +1,60 @@
+/* ch-canvas.wxss */
+
+.label {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.colorRect {
+  margin: 5px;
+  width: 25px;
+  height: 15px;
+  border-radius: 3px;
+}
+
+.sublabel {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25px;
+}
+
+.textInfo {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip {
+  display: flex;
+  position: absolute;
+}
+
+.tooltip cover-view {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 3px; 
+}
+
+.tooltip cover-view cover-view {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.cross-horizon {
+  height: 2rpx;
+  background-color: gray;
+  position: absolute;
+}
+
+.cross-vertical {
+  width: 2rpx;
+  background-color: gray;
+  position: absolute;
+}

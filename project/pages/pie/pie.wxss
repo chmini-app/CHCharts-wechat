@@ -1,0 +1,37 @@
+/* pie.wxss */
+.tempCanvas {
+  height: 500rpx;
+  width: 100%;
+}
+
+.label {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.colorRect {
+  margin: 5px;
+  width: 25px;
+  height: 15px; 
+  border-radius: 3px;
+}
+
+.sublabel {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25px;
+}
+
+.textInfo {
+  font-size: 15px;
+  display: flex;  
+  align-items: center;  
+  justify-content: center;
+}

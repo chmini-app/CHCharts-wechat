@@ -1,0 +1,28 @@
+/**index.wxss**/
+.background{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+.itemView{
+  background-color: #fafafa;   
+  border: thin solid #ededed; 
+  width: 200rpx;
+  height: 250rpx;
+  margin:50rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+
+.label{
+  color: #f17c67;
+  text-align:center;
+}

@@ -1,0 +1,4 @@
+<!--rose.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='rose' id='rose'></ch-canvas>
+</view>

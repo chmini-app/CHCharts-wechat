@@ -1,0 +1,16 @@
+<!--ch-canvas.wxml-->
+<canvas canvas-id='{{canvasId}}' style='height: {{canvasHeight}};width: {{canvasWidth}};' bindtouchstart='touchStart' bindtouchmove='touchMove' bindtouchend='touchEnd' bindlongtap='longTap'>
+  <cover-view class='cross-horizon' style="{{crossHLineStyle}}" wx:if='{{showHLine}}'></cover-view>
+  <cover-view class='cross-vertical' style="{{crossVLineStyle}}" wx:if='{{showVLine}}'></cover-view>
+  <cover-view class='tooltip' style='{{tooltipPos}}' wx:if='{{showTooltip}}'>
+    <cover-view>
+      <cover-view>{{tooltipInfo}}</cover-view>
+    </cover-view>
+  </cover-view>
+</canvas>
+<view class='label' hidden='{{!showLabel}}' style='width: {{canvasWidth}};'>
+  <view class='sublabel' wx:for="{{items}}" wx:key="{{index}}">
+    <view class='colorRect' style='background-color:{{item.color}}'></view>
+    <text class='textInfo'>{{item.name}}</text>
+  </view>
+</view>

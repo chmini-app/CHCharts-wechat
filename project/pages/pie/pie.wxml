@@ -1,0 +1,13 @@
+<!--pie.wxml-->
+<view class='container'>
+  <!-- <canvas class="tempCanvas" canvas-id='pie' id='pie'></canvas>
+  <view class='label'>
+    <view class='sublabel' wx:for="{{labelData}}" wx:key="{{index}}">
+      <view class='colorRect' style='background-color:{{item.color}}'></view>
+      <text class='textInfo'>{{item.name}}</text>
+    </view>
+  </view> -->
+  <button bindtap='drawChart' type='primary'>change</button>
+  <ch-canvas canvasId='pie-1' id='pie-3'></ch-canvas>
+</view>
+

@@ -1,0 +1,4 @@
+<!--pages/bubble/bubble.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='bubble' id='bubble'></ch-canvas>
+</view>

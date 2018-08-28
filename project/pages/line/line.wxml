@@ -1,0 +1,12 @@
+<!--pages/line/line.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='line' id='line'></ch-canvas>
+  <view class='button-group'>
+    <button data-type='0' catchtap='onTypetap'>单线</button>
+    <button data-type='1' catchtap='onTypetap'>多线</button>
+    <button data-type='2' catchtap='onTypetap'>阴影</button>
+    <button data-type='3' catchtap='onTypetap'>折线</button>
+    <button data-type='4' catchtap='onTypetap'>曲线</button>
+  </view>
+
+</view>

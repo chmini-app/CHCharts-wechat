@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "雷达图",
+    "usingComponents": {
+      "ch-canvas": "../../ch-canvas/ch-canvas"
+    }
+}

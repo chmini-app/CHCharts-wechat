@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="background">
+  <view class="itemView" wx:for="{{items}}" wx:key="{{index}}"   data-type="{{item.type}}" bindtap='itemClicked'>
+    <text class='label'>{{item.name}}</text>
+    <image class='image' src='{{item.image}}'></image>
+  </view>
+</view>

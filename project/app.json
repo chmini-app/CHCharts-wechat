@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pie/pie",
+    "pages/rose/rose",
+    "pages/line/line",
+    "pages/ring/ring",
+    "pages/radar/radar",
+    "pages/bubble/bubble",
+    "pages/bar/bar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f17c67",
+    "navigationBarTitleText": "长虹图表系列",
+    "navigationBarTextStyle": "white"
+  }
+}

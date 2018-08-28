@@ -1,0 +1,6 @@
+<!--radar.wxml-->
+<view class='container'>
+  <button bindtap='changeChart' type='primary'>change</button>
+  <ch-canvas canvasId='radar' id='radar'></ch-canvas>
+</view>
+
