@@ -86,7 +86,7 @@ Page({
 &emsp;**刘蛟** —— 长虹大前端架构师
 
 [![avatar](/others/profile2.png)](https://my.csdn.net/h_spirit)
-&emsp;**胡秩铭** —— 长虹大前端高级研发工程师
+&emsp;**胡秩铭** —— 哈曼智联前端研发工程师
 
 [![avatar](/others/profile3.png)](https://github.com/liyu1121929)
 &emsp;**李钰** —— 长虹前端研发工程师
