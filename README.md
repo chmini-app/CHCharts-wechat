@@ -1,6 +1,6 @@
 # 在微信小程序中使用 CHCharts
 	
-[![](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/chmini-app/CHCharts-wechat/blob/master/LICENSE)
+[![](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/chmini-app/CHCharts-wechat/blob/master/LICENSE) [![](https://img.shields.io/badge/npm-v1.0.0-519dd9.svg)](https://www.npmjs.com/package/miniprogram-chcharts/v/1.0.0)
 
 本项目是基于微信小程序开发的图表插件，以及使用的示例。
 
