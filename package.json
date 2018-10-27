@@ -1,0 +1,15 @@
+{
+  "name": "miniprogram-chcharts",
+  "version": "1.0.0",
+  "description": "长虹图表系列",
+  "miniprogram": "dist",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/chmini-app/CHCharts-wechat.git"
+	},
+  "author": "changhong",
+  "license": "MIT",
+  "main":"/project/pages/index/index.js"
+}
