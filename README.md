@@ -1,4 +1,6 @@
 # 在微信小程序中使用 CHCharts
+	
+![](https://img.shields.io/badge/platform-微信小程序-green.svg) ![](https://img.shields.io/badge/license-MIT-red.svg)
 
 本项目是基于微信小程序开发的图表插件，以及使用的示例。
 
