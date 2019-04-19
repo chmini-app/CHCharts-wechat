@@ -81,17 +81,3 @@ Page({
   }
 });
 ```
-
-# 关于我们
-
-[![avatar](/others/profile1.png)](https://www.jianshu.com/u/39482dc75069)
-&emsp;**刘蛟** —— 长虹大前端架构师
-
-[![avatar](/others/profile2.png)](https://my.csdn.net/h_spirit)
-&emsp;**胡秩铭** —— 哈曼智联前端研发工程师
-
-[![avatar](/others/profile3.png)](https://github.com/liyu1121929)
-&emsp;**李钰** —— 长虹前端研发工程师
-
-[![avatar](/others/profile4.png)](https://github.com/ire-solas)
-&emsp;**钟世勇** —— 长虹iOS中级开发工程师
