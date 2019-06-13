@@ -12,7 +12,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f17c67",
-    "navigationBarTitleText": "长虹图表系列",
+    "navigationBarTitleText": "图表组件",
     "navigationBarTextStyle": "white"
   }
 }
