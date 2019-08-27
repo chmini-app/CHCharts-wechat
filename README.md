@@ -1,6 +1,6 @@
 # 在微信小程序中使用 CHCharts
-	
-[![](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/chmini-app/CHCharts-wechat/blob/master/LICENSE) [![](https://img.shields.io/badge/npm-v1.0.1-519dd9.svg)](https://www.npmjs.com/package/miniprogram-chcharts)
+
+[![](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/chmini-app/CHCharts-wechat/blob/master/LICENSE) [![](https://img.shields.io/badge/npm-v1.1.0-519dd9.svg)](https://www.npmjs.com/package/miniprogram-chcharts)
 
 本项目是基于微信小程序开发的图表插件，以及使用的示例。
 
@@ -56,28 +56,33 @@
 
 ```js
 var data = [
-  { name: "甜甜圈", value: 50, color: "#80e0ed" },
-  { name: "冰淇淋", value: 40, color: "#9197ed" },
-  { name: "棒棒糖", value: 30, color: "#eddf5c" },
-  { name: "奶茶", value: 60, color: "#e4ff99" },
-  { name: "抹茶蛋糕", value: 50, color: "#baffad" },
-  { name: "蛋挞", value: 20, color: "#afee9d" }
-];
+  { name: '甜甜圈', value: 50, color: '#80e0ed' },
+  { name: '冰淇淋', value: 40, color: '#9197ed' },
+  { name: '棒棒糖', value: 30, color: '#eddf5c' },
+  { name: '奶茶', value: 60, color: '#e4ff99' },
+  { name: '抹茶蛋糕', value: 50, color: '#baffad' },
+  { name: '蛋挞', value: 20, color: '#afee9d' }
+]
 
 Page({
   onLoad: function(options) {
     var options = {
       data: data,
-      legend: "{c}",
+      legend: '{c}',
       chartRatio: 0.95,
-      style: "rose",
+      style: 'rose',
       showLegend: true,
       showLabel: true,
       animation: true
-    };
-    this.roseComp = this.selectComponent("#rose");
-    this.roseComp.setOptions(options);
-    this.roseComp.initChart(320, 213);
+    }
+    this.roseComp = this.selectComponent('#rose')
+    this.roseComp.setOptions(options)
+    this.roseComp.initChart(320, 213)
   }
-});
+})
 ```
+
+## 最近更新(v1.1.0)
+
+1. 修复了多图 tooltips 显示问题。
+2. 添加坐标轴修改颜色方法。
