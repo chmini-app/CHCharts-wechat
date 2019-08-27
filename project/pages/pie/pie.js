@@ -6,14 +6,20 @@ var data = [{ name: "篮球", value: 20, color: "rgb(250,239,66)"},
   { name: "排球", value: 100, color: "rgb(106,49,142)" }]
 
 function drawPie(canvasId, domId) {
+  //创建 canvas 绘图上下文,需要指定 canvasId，该绘图上下文只作用于对应的<canvas/>
   var context = wx.createCanvasContext(canvasId, this);
+  //createSelectorQuery()接口返回一个对象实例
   var query = wx.createSelectorQuery();
+  //boundingClientRect():动态获取view元素的高度、宽度等属性
   query.select("#" + domId).boundingClientRect();
+  //exec( function(res){} )：执行所有的请求，请求结果按请求次序构成数组，在callback的第一个参数中返回
   query.exec(function (res) {
     console.log(res[0]);
+    //比例，比率
     var ratio = 0.8;
     var small = res[0].width > res[0].height ? res[0].height : res[0].width;
-    var radius = small * ratio / 2.0;
+    //半径
+    var radius = small * ratio / 2.0; 
     // var labelWidth = 70;
     // var labelHeight = 15;
     // vertical style
@@ -37,6 +43,7 @@ function drawPie(canvasId, domId) {
     // draw pie
     data.forEach(function (val,idx){
       context.beginPath();
+      //arc()画圆弧
       context.arc(pieCenter.x, pieCenter.y, radius, start, start + val.value / total * 2 * Math.PI, false);
       context.setLineWidth(2);
       context.lineTo(pieCenter.x, pieCenter.y);
@@ -45,6 +52,7 @@ function drawPie(canvasId, domId) {
       context.fill();
       context.closePath();
       context.stroke();
+      //得到每个类别的份角度：2 * PI * 类别值 / 总值
       start += val.value / total * 2 * Math.PI;
       // if (idx < maxCol && labelHeight + 20 + 2 * radius < res[0].height)
       // {

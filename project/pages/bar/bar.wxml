@@ -1,6 +1,7 @@
 <!--pages/bar/bar.wxml-->
 <view class='container'>
 <text>奶茶销量柱状图</text>
+  <!--相当于是创建个ch-cavas组件实例，需要在对应的js中进行引用和初始化，js中通过此处id='bar'获取组件实例-->
   <ch-canvas canvasId='bar' id='bar'></ch-canvas>
   <view class='bnt'>
   <button data-type='0' catchtap='onTypetap'>堆叠图</button>

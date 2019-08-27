@@ -42,6 +42,8 @@ Page({
       showLabel: true,
       showTooltip: true,
       tooltip: '{a}：{b}',
+      yAxis: { color: "null" },
+      xAxis: { color: "null" }
     }
     this.bubbleComp = this.selectComponent('#bubble');
     this.bubbleComp.setOptions(options);

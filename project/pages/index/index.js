@@ -10,7 +10,9 @@ Page({
       { name: "环状图", type: "ring", image: '../../images/ring.png' },
       { name: "玫瑰图", type: "rose", image: '../../images/rose.png' },
       { name: "雷达图", type: "radar", image: '../../images/radar.png' },
-      { name: "气泡图", type: "bubble", image: '../../images/bubble.png' },],
+      { name: "气泡图", type: "bubble", image: '../../images/bubble.png' },
+      { name: "多图表", type: "charts", image: '../../images/charts.png' }
+      ],
   },
   onLoad: function () {
     
@@ -61,6 +63,12 @@ Page({
       case "bar": {
         wx.navigateTo({
           url: '../bar/bar',
+        })
+        break;
+      }
+      case "charts": {
+        wx.navigateTo({
+          url: '../charts/charts',
         })
         break;
       }

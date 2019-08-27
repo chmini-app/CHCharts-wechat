@@ -7,12 +7,14 @@
     "pages/ring/ring",
     "pages/radar/radar",
     "pages/bubble/bubble",
-    "pages/bar/bar"
+    "pages/bar/bar",
+    "pages/charts/charts"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f17c67",
     "navigationBarTitleText": "图表组件",
     "navigationBarTextStyle": "white"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

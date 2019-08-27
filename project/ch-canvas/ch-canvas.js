@@ -33,6 +33,7 @@ Component({
     showVLine:false,
     crossVLineStyle:'',
     crossHLineStyle:'',
+    value:{}
   },
 
   /**
@@ -41,6 +42,7 @@ Component({
   methods: {
     setOptions(value) {
       chcharts.options = value;
+      this.value=value
       this.setData({
         showLabel: value.showLabel == undefined ? false : value.showLabel,
         items: value.data == undefined ? [] : value.data,
@@ -56,7 +58,10 @@ Component({
       chcharts.initChart(context, width, height);
     },
     touchStart(e) {
+      console.log(e)
+      chcharts.options = this.value;
       var tipInfo = chcharts.requestTooltip(e.touches[0].x, e.touches[0].y, parseFloat(this.data.canvasWidth), parseFloat(this.data.canvasHeight));
+      console.log(tipInfo)
       if (tipInfo)
       {
         this.setData({
@@ -71,6 +76,7 @@ Component({
       }
     },
     touchMove(e) {
+      chcharts.options = this.value;
       var tipInfo = chcharts.requestTooltip(e.touches[0].x, e.touches[0].y, parseFloat(this.data.canvasWidth), parseFloat(this.data.canvasHeight));
       if (tipInfo) {
         this.setData({
@@ -92,6 +98,7 @@ Component({
       })
     },
     longTap(e) {
+      chcharts.options = this.value;
       var tipInfo = chcharts.requestTooltip(e.touches[0].x, e.touches[0].y, parseFloat(this.data.canvasWidth), parseFloat(this.data.canvasHeight));
       if (tipInfo) {
         this.setData({

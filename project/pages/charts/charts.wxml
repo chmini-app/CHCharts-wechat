@@ -1,0 +1,19 @@
+<!--pages/charts/charts.wxml-->
+<view class='container'>
+  <view>
+    <ch-canvas canvasId='pie-1' id='pie-1'></ch-canvas>
+  </view>
+  <view>
+    <ch-canvas canvasId='bar' id='bar'></ch-canvas>
+  </view>
+  <view>
+    <ch-canvas canvasId='line' id='line'></ch-canvas>
+    <view class='button-group'>
+      <button data-type='0' catchtap='onTypetap'>单线</button>
+      <button data-type='1' catchtap='onTypetap'>多线</button>
+      <button data-type='2' catchtap='onTypetap'>阴影</button>
+      <button data-type='3' catchtap='onTypetap'>折线</button>
+      <button data-type='4' catchtap='onTypetap'>曲线</button>
+    </view>
+  </view>
+</view>

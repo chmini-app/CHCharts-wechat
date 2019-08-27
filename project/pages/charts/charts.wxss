@@ -1,0 +1,13 @@
+/* pages/charts/charts.wxss */
+.button-group{
+  height: 300rpx;
+  width: 100vw;
+  display:flex;
+  justify-content:space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40rpx;
+}
+.button-group button{
+  height: 100rpx;
+}
