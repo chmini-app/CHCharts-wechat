@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "矩形树图",
+  "usingComponents": {
+    "ch-canvas": "../../ch-canvas/ch-canvas"
+  }
+}

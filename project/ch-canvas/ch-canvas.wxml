@@ -10,7 +10,8 @@
   </cover-view>
 </canvas>
 <view class='label' hidden='{{!showLabel}}' style='width: {{canvasWidth}};'>
-  <view class='sublabel' wx:for="{{items}}" wx:key="{{index}}">
+  <!--catchtap="switchData"多重环图选择性渲染事件-->
+  <view class='sublabel' wx:for="{{items}}" wx:key="{{index}}"  data-index="{{index}}">
     <view class='colorRect' style='background-color:{{item.color}}'></view>
     <text class='textInfo'>{{item.name}}</text>
   </view>

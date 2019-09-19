@@ -11,7 +11,12 @@ Page({
       { name: "玫瑰图", type: "rose", image: '../../images/rose.png' },
       { name: "雷达图", type: "radar", image: '../../images/radar.png' },
       { name: "气泡图", type: "bubble", image: '../../images/bubble.png' },
+      { name: "测量仪", type: "gauge", image: '../../images/gauge.png' },
+      { name: "K线图",type: "K-line",image: '../../images/K-line.png'},
+      { name: "漏斗图", type: "funnel", image: '../../images/funnel.png' },
+      { name: "矩形树图", type: "treemap", image: '../../images/treemap.png' },
       { name: "多图表", type: "charts", image: '../../images/charts.png' }
+      
       ],
   },
   onLoad: function () {
@@ -69,6 +74,36 @@ Page({
       case "charts": {
         wx.navigateTo({
           url: '../charts/charts',
+        })
+        break;
+      }
+      case "circles": {
+        wx.navigateTo({
+          url: '../circles/circles',
+        })
+        break;
+      }
+      case "K-line": {
+        wx.navigateTo({
+          url:'../K-line/K-line',
+        })
+        break;
+      }
+      case "gauge": {
+        wx.navigateTo({
+          url: '../gauge/gauge',
+        })
+        break;
+      }
+      case "funnel": {
+        wx.navigateTo({
+          url: '../funnel/funnel',
+        })
+        break;
+      }
+      case "treemap": {
+        wx.navigateTo({
+          url: '../treemap/treemap',
         })
         break;
       }

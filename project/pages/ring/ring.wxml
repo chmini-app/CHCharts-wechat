@@ -1,4 +1,7 @@
 <!--ring.wxml-->
 <view class='container'>
   <ch-canvas canvasId='ring' id='ring'></ch-canvas>
+  <navigator url="/pages/circles/circles?title=circles" hover-class="navigator-hover">
+  <button>多层环形图</button>
+  </navigator>
 </view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "漏斗图",
+  "usingComponents": {
+    "ch-canvas": "../../ch-canvas/ch-canvas"
+  }
+}

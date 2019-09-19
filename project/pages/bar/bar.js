@@ -10,7 +10,7 @@ const bardata =
   { name: "紫米露", data: [10,2,34,54,21,33], color: "green" },
   { name: "芒果多多", data: [12,32,43,12], color: "red" },
   { name: "草莓多多", data: [31,23,44,55], color: "purple" },
-  { name: "西柚多多", data: [54,32,66,55], color: "gray" },*/
+ */
   ];
 const xLabel = ['一季度', '二季度', '三季度', '四季度','五季度'];
 const options = {

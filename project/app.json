@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/treemap/treemap",
+    "pages/gauge/gauge",
+    "pages/circles/circles",
     "pages/pie/pie",
     "pages/rose/rose",
     "pages/line/line",
@@ -8,7 +11,9 @@
     "pages/radar/radar",
     "pages/bubble/bubble",
     "pages/bar/bar",
-    "pages/charts/charts"
+    "pages/funnel/funnel",
+    "pages/charts/charts",
+    "pages/K-line/K-line"
   ],
   "window": {
     "backgroundTextStyle": "light",

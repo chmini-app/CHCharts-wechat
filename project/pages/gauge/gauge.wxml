@@ -1,0 +1,4 @@
+<!--pages/gauge/gauge.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='gauge' id='gauge'></ch-canvas>
+</view>

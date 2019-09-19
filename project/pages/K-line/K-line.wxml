@@ -1,0 +1,4 @@
+<!--pages/K-line/K-line.wxml-->
+<view class="container">
+<ch-canvas canvasId="K-line" id="K-line"></ch-canvas>
+</view>

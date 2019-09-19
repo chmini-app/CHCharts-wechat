@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "多层环图",
+  "usingComponents": {
+    "ch-canvas": "../../ch-canvas/ch-canvas"
+  }
+}

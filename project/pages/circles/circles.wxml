@@ -1,0 +1,4 @@
+<!--pages/circles/circles.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='circles' id='circles'></ch-canvas>
+</view>

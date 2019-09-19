@@ -34,6 +34,7 @@
 .tooltip {
   display: flex;
   position: absolute;
+  font-size: 13px;
 }
 
 .tooltip cover-view {

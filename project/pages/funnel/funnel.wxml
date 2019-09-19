@@ -1,0 +1,4 @@
+<!--pages/funnel/funnel.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='funnel' id='funnel'></ch-canvas>
+</view>

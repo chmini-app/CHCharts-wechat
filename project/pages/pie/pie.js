@@ -6,7 +6,6 @@ var data = [{ name: "篮球", value: 20, color: "rgb(250,239,66)"},
   { name: "排球", value: 100, color: "rgb(106,49,142)" }]
 
 function drawPie(canvasId, domId) {
-  //创建 canvas 绘图上下文,需要指定 canvasId，该绘图上下文只作用于对应的<canvas/>
   var context = wx.createCanvasContext(canvasId, this);
   //createSelectorQuery()接口返回一个对象实例
   var query = wx.createSelectorQuery();

@@ -1,0 +1,4 @@
+<!--pages/treemap/treemap.wxml-->
+<view class='container'>
+  <ch-canvas canvasId='treemap' id='treemap'></ch-canvas>
+</view>
