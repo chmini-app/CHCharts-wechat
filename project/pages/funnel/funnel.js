@@ -1,5 +1,5 @@
 // pages/funnel/funnel.js
-var funnelData=[
+var funnelData = [
   { name: '咨询', value: '50', color: '#204157' },
   { name: '点击', value: '90', color: '#E39F72' },
   { name: '访问', value: '60', color: '#B83515' },
@@ -15,7 +15,7 @@ var options1 = {
   style: 'funnel',
   showLegend: true,
   showLabel: true,
-  animation: false,
+  animation: true,
   showTooltip: true,
   tooltip: '{a}：{c}',
 }

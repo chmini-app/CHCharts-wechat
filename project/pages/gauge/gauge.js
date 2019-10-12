@@ -1,14 +1,14 @@
 // pages/gauge/gauge.js
 var options1 = {
-  data: {name:'成功率',value:133},
-  min:12,
-  max:321,
+  data: { name: '成功率', value: 142 },
+  min: 12,
+  max: 321,
   legend: '{c}',
   chartRatio: 0.95,
   style: 'gauge',
   showLegend: true,
   showLabel: true,
-  animation: false,
+  animation: true,
   showTooltip: true,
   tooltip: '{a}：{c}',
 }
@@ -27,7 +27,7 @@ Page({
   onLoad: function (options) {
     var gaugeChart = this.selectComponent('#gauge');
     gaugeChart.setOptions(options1);
-    gaugeChart.initChart(200, 200);
+    gaugeChart.initChart(260, 260);
   },
 
   /**

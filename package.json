@@ -1,15 +1,15 @@
 {
   "name": "miniprogram-chcharts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "微信小程序图表组件",
   "miniprogram": "dist",
   "devDependencies": {},
   "dependencies": {},
   "repository": {
-	"type": "git",
-	"url": "https://github.com/chmini-app/CHCharts-wechat.git"
-	},
+    "type": "git",
+    "url": "https://github.com/chmini-app/CHCharts-wechat.git"
+  },
   "author": "Disciple",
   "license": "MIT",
-  "main":"/project/pages/index/index.js"
+  "main": "/project/pages/index/index.js"
 }
