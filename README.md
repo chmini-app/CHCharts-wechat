@@ -1,6 +1,6 @@
 # 在微信小程序中使用 CHCharts
 
-[![](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/chmini-app/CHCharts-wechat/blob/master/LICENSE) [![](https://img.shields.io/badge/npm-v2.0.1-519dd9.svg)](https://www.npmjs.com/package/miniprogram-chcharts)
+[![](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/chmini-app/CHCharts-wechat/blob/master/LICENSE) [![](https://img.shields.io/badge/npm-v2.0.2-519dd9.svg)](https://www.npmjs.com/package/miniprogram-chcharts)
 
 本项目是基于微信小程序开发的图表插件，以及使用的示例。
 
@@ -82,8 +82,7 @@ Page({
 })
 ```
 
-## 最近更新(v2.0.1)
+## 最近更新(v2.0.2)
 
-1. 仪表盘增加动画效果。
-2. 漏斗图添加动画效果。
-3. 修复已知 bug。
+1. 坐标轴新增 xWordsCnt 和 xRows 参数，开发者可以通过它们调节坐标轴文字显示范围 。
+2. 修复已知 bug。

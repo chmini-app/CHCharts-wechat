@@ -22,6 +22,8 @@ const options = {
   xLabel: xLabel,
   style: 'line',
   lineStyle: 'curve',
+  xWordsCnt: 4,
+  xRows: 2,
   area: false,
   showTooltip: true,
   tooltip: '{a}：{b}',
